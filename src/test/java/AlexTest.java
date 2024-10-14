@@ -7,6 +7,7 @@ import static org.junit.Assert.assertTrue;
 
 public class AlexTest {
 
+
     @Test
     public void testGetKittens() throws Exception {
         Alex alex = new Alex();
@@ -16,6 +17,7 @@ public class AlexTest {
     @Test
     public void testSexAlex() throws Exception {
         Alex alex = new Alex();
+        System.out.println(alex.hasMane);
         assertTrue(alex.hasMane);
     }
 
